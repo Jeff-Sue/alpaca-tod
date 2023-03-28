@@ -1,0 +1,44 @@
+[
+    {
+        "dial_id": "MUL1555.json",
+        "domains": [
+            "train",
+            "restaurant"
+        ],
+        "turns": [
+            {
+                "system": "none",
+                "user": "i am looking for a restaurant in cambridge called the missing sock .",
+                "state": {
+                    "active_intent": "none",
+                    "slot_values": {
+                        "restaurant-name": "the missing sock"
+                    }
+                }
+            },
+            {
+                "system": "the missing sock is an international restaurant in the east . the address is finders corner newmarket road . do you need any further information ?",
+                "user": "yes , can you give me a phone number please ?",
+                "state": {
+                    "active_intent": "none",
+                    "slot_values": {
+                        "restaurant-name": "the missing sock"
+                    }
+                }
+            },
+            {
+                "system": "certainly . their phone number if 01223812660 . can i help you with anything else ?",
+                "user": "i am also looking to book a train leaving after 18:30 to go to kings lynn .",
+                "state": {
+                    "active_intent": "none",
+                    "slot_values": {
+                        "restaurant-name": "the missing sock",
+                        "train-leaveat": "18:30",
+                        "train-destination": "kings lynn",
+                        "train-departure": "cambridge"
+                    }
+                }
+            }
+        ]
+    }
+]
