@@ -1,0 +1,74 @@
+"?
+
+Destination: Pizza Hut Fen Ditton",pizza hut fenditton
+"?
+
+Location of departure: Saint John's College",saint johns college
+"?
+
+The time of leave for the taxi would be 17:15.",17:15
+?,pizza hut fenditton
+?,saint johns college
+"?
+
+The time of leave for the taxi is 17:15.",17:15
+"?
+
+The destination of the taxi is Pizza Hut Fen Ditton.",pizza hut fenditton
+"?
+
+The location of departure for the taxi is Saint John's College.",saint johns college
+"?
+
+The time of leave for the taxi is 17:15.",17:15
+"?
+
+The destination of the taxi is Pizza Hut Fen Ditton.",pizza hut fenditton
+"?
+
+The location of departure for the taxi is Saint John's College.",saint johns college
+?,nusha
+": Nusha 
+Address: Unit G6, Cambridge Leisure Park, Clifton Road",nusha
+?,indian
+?,centre
+?,nusha
+?,indian
+?,expensive
+?,centre
+?,nusha
+? .system: Saffron Brasserie serves Indian cuisine.,indian
+? .system: Saffron Brasserie is an expensive restaurant located at 2-4 Market Street,expensive
+: saffron brasserie. address: the saffron brasserie is located at 1-,saffron brasserie
+"? .system: The Saffron Brasserie is located at 2-4 Market Street, Cambridge",centre
+.system: The name of the attraction is Nusha.,nusha
+.system: The restaurant serves Indian food.,indian
+? .system: Saffron Brasserie is an expensive Indian restaurant located at Hills Road City Centre,expensive
+? .system: The restaurant is called Saffron Brasserie and it serves Indian food.,saffron brasserie
+.system: The saffron brasserie is located in the Hills Road City Centre.,centre
+.system: The name of the attraction is Nusha.,nusha
+"?
+
+The food of the restaurant is Indian.",indian
+?,expensive
+"?
+
+The name of the restaurant is Saffron Brasserie.",saffron brasserie
+? .system: The saffron brasserie is located in the Hills Road City Centre.,centre
+: Nusha,nusha
+System: The restaurant serves Indian food.,indian
+"?
+
+The price range of the restaurant is expensive.",expensive
+"?
+
+The name of the restaurant is Saffron Brasserie.",saffron brasserie
+System: The Saffron Brasserie is located in Hills Road City Centre.,centre
+"?
+
+The name of the attraction is Nusha.",nusha
+"you are looking for?
+
+What is your budget range?",moderate
+?,moderate
+?,centre
