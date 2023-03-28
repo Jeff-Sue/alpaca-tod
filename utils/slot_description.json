@@ -1,0 +1,377 @@
+{
+    "hotel-pricerange": {
+        "description_human": "price budget of the hotel",
+        "values": [
+            "cheap",
+            "dontcare",
+            "expensive",
+            "moderate"
+        ],
+        "naive": "price range of the hotel",
+        "question": "What is the pricerange of the hotel that the user mentioned? The answer should be cheap or dontcare or enpensive or moderate or None.",
+        "slottype": "price range of the hotel",
+        "slottype_zh": "酒店价格区间"
+    },
+    "hotel-type": {
+        "description_human": "what is the type of the hotel",
+        "values": [
+            "guesthouse",
+            "hotel"
+        ],
+        "naive": "type of the hotel",
+        "question": "What is the type of the hotel that the user mentioned? The answer should be guesthouse or hotel or None.",
+        "slottype": "type of the hotel",
+        "slottype_zh": "酒店类型"
+    },
+    "hotel-parking": {
+        "description_human": "whether the hotel has parking",
+        "values": [
+            "dontcare",
+            "free",
+            "no",
+            "yes"
+        ],
+        "naive": "parking of the hotel",
+        "question": "What is the parking of the hotel that the user mentioned? The answer should be 'free', 'no', 'yes', or 'dontcare'.",
+        "slottype": "whether have parking in the hotel",
+        "slottype_zh" : "酒店是否有停车场"
+    },
+    "hotel-book stay": {
+        "description_human": "length of stay at the hotel",
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "naive": "stay for the hotel booking",
+        "question": "What is the book stay of the hotel that the user mentioned? The answer should be a number or None.",
+        "slottype": "number of stay for the hotel booking",
+        "slottype_zh": "酒店预订的入住天数"
+    },
+    "hotel-book day": {
+        "description_human": "day of the hotel booking",
+        "values": [
+            "friday",
+            "monday",
+            "saturday",
+            "sunday",
+            "thursday",
+            "tuesday",
+            "wednesday"
+        ],
+        "naive": "day for the hotel booking",
+        "question": "What is the book day of the hotel that the user mentioned? The answer should be a day of the week or None.",
+        "slottype": "day for the hotel booking",
+        "slottype_zh": "酒店预订日"
+    },
+    "hotel-book people": {
+        "description_human": "number of people for the hotel booking",
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "naive": "people for the hotel booking",
+        "question": "What is the book people of the hotel that the user mentioned? The answer should be a number or None.",
+        "slottype": "number of people for the hotel booking",
+        "slottype_zh": "酒店预订人数"
+    },
+    "hotel-area": {
+        "description_human": "area or place of the hotel",
+        "values": [
+            "centre",
+            "dontcare",
+            "east",
+            "north",
+            "south",
+            "west"
+        ],
+        "naive": "area of the hotel",
+        "question": "What is the area of the hotel that the user mentioned? The answer should be centre, east, north, south, west or none.",
+        "slottype": "area of the hotel",
+        "slottype_zh": "酒店的区域"
+    },
+    "hotel-stars": {
+        "description_human": "star rating of the hotel",
+        "values": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "dontcare"
+        ],
+        "naive": "stars of the hotel",
+        "question": "What is the stars of the hotel that the user mentioned? The answer should be a number or None.",
+        "slottype": "number of stars of the hotel",
+        "slottype_zh": "酒店星级数"
+    },
+    "hotel-internet": {
+        "description_human": "whether the hotel has internet",
+        "values": [
+            "dontcare",
+            "no",
+            "yes"
+        ],
+        "naive": "internet of the hotel",
+        "question": "What is the internet of the hotel that the user mentioned? The answer should be yes, no or dontcare or None.",
+        "slottype": "whether have internet in the hotel",
+        "slottype_zh": "酒店是否有网络"
+    },
+    "train-destination": {
+        "description_human": "destination of the train",
+        "values": [],
+        "naive": "destination of the train",
+        "question": "What is the destination of the train that the user mentioned? The answer should be a location or None.",
+        "slottype": "location of destination of the train",
+        "slottype_zh": "火车目的地的位置"
+    },
+    "train-day": {
+        "description_human": "day of the train",
+        "values": [
+            "dontcare",
+            "friday",
+            "monday",
+            "saturday",
+            "sunday",
+            "thursday",
+            "tuesday",
+            "wednesday"
+        ],
+        "naive": "day of the train",
+        "question": "What is the day of the train that the user mentioned? The answer should be a day of the week or None",
+        "slottype": "day of the train",
+        "slottype_zh": "火车预定日"
+    },
+    "train-departure": {
+        "description_human": "departure location of the train",
+        "values": [],
+        "naive": "departure of the train",
+        "question": "What is the departure of the train that the user mentioned? The answer should be a location or None.",
+        "slottype": "location of departure of the train",
+        "slottype_zh": "火车出发地点"
+    },
+    "train-arriveby": {
+        "description_human": "arrival time of the train",
+        "values": [],
+        "naive": "arrive by of the train",
+        "question": "What is the arriveby of the train that the user mentioned?",
+        "slottype": "time of arrive by of the train",
+        "slottype_zh": "火车到达时间"
+    },
+    "train-book people": {
+        "description_human": "how many train tickets you need",
+        "values": [
+            "0",
+            "1",
+            "10",
+            "15",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "naive": "people for the train booking",
+        "question": "What is the book people of the train that the user mentioned? The answer should be a number or None.",
+        "slottype": "number of people for the train booking",
+        "slottype_zh": "火车订票人数"
+    },
+    "train-leaveat": {
+        "description_human": "leaving time for the train",
+        "values": [],
+        "naive": "leave at of the train",
+        "question": "What is the leaveat of the train that the user mentioned?",
+        "slottype": "time of leave at of the train",
+        "slottype_zh": "火车出发时间"
+    },
+    "attraction-area": {
+        "description_human": "area to search for attractions",
+        "values": [
+            "cambridge",
+            "centre",
+            "dontcare",
+            "east",
+            "north",
+            "south",
+            "west"
+        ],
+        "naive": "area of the attraction",
+        "question": "What is the  area of the attraction that the user mentioned? The answer should be centre, east, north, south, west or none.",
+        "slottype": "area of the attraction",
+        "slottype_zh": "景点区域"
+    },
+    "restaurant-food": {
+        "description_human": "the cuisine of the restaurant you are looking for",
+        "values": [],
+        "naive": "food of the restaurant",
+        "question": "What kind of food of the restaurant that the user mentioned?",
+        "slottype": "food of the restaurant",
+        "slottype_zh": "餐厅的食物"
+    },
+    "restaurant-pricerange": {
+        "description_human": "price budget for the restaurant",
+        "values": [
+            "cheap",
+            "dontcare",
+            "expensive",
+            "moderate"
+        ],
+        "naive": "price range of the restaurant",
+        "question": "What is the pricerange of the restaurant that the user mentioned? The answer should be expensive or cheap or moderate or dontcare or None",
+        "slottype": "price range of the restaurant",
+        "slottype_zh": "餐厅的价格范围"
+    },
+    "restaurant-area": {
+        "description_human": "area or place of the restaurant",
+        "values": [
+            "centre",
+            "east",
+            "north",
+            "south",
+            "west"
+        ],
+        "naive": "area of the restaurant",
+        "question": "What is the  area of the restaurant that the user mentioned? The answer should be centre, east, north, south, west or none.",
+        "slottype": "area of the restaurant",
+        "slottype_zh": "餐厅区域位置"
+    },
+    "attraction-name": {
+        "description_human": "name of the attraction",
+        "values": [],
+        "naive": "name of the attraction",
+        "question": "What is the name of the attraction that the user mentioned?",
+        "slottype": "name of the attraction",
+        "slottype_zh": "景点名称"
+    },
+    "restaurant-name": {
+        "description_human": "name of the restaurant",
+        "values": [],
+        "naive": "name of the restaurant",
+        "question": "What is the name of the restaurant that the user mentioned?",
+        "slottype": "name of the restaurant",
+        "slottype_zh": "餐厅名称"
+    },
+    "attraction-type": {
+        "description_human": "type of the attraction",
+        "values": [
+            "architecture",
+            "boat",
+            "church",
+            "cinema",
+            "college",
+            "concerthall",
+            "entertainment",
+            "hotspot",
+            "multiple sports",
+            "museum",
+            "nightclub",
+            "park",
+            "special",
+            "swimmingpool",
+            "theatre"
+        ],
+        "naive": "type of the attraction",
+        "question": "What is the type of the attraction that the user mentioned?",
+        "slottype": "type of the attraction",
+        "slottype_zh": "景点类型"
+    },
+    "hotel-name": {
+        "description_human": "name of the hotel",
+        "values": [],
+        "naive": "name of the hotel",
+        "question": "what is the name of the hotel that the user mentioned?",
+        "slottype": "name of the hotel",
+        "slottype_zh": "酒店名称"
+    },
+    "taxi-leaveat": {
+        "description_human": "leaving time of taxi",
+        "values": [],
+        "naive": "leave at of the taxi",
+        "question": "What is the leaveat of the taxi that the user mentioned?",
+        "slottype": "time of leave at of the taxi",
+        "slottype_zh": "出租车出发时间"
+    },
+    "taxi-destination": {
+        "description_human": "destination of taxi",
+        "values": [],
+        "naive": "destination of the taxi",
+        "question": "What is the destination of the taxi that the user mentioned? The answer should be a location or None.",
+        "slottype": "location of destination of the taxi",
+        "slottype_zh": "出租车目的地位置"
+    },
+    "taxi-departure": {
+        "description_human": "departure location of taxi",
+        "values": [],
+        "naive": "departure of the taxi",
+        "question": "What is the departure of the taxi that the user mentioned? The answer should be a location or None.",
+        "slottype": "location of departure of the taxi",
+        "slottype_zh": "出租车出发地点"
+    },
+    "restaurant-book time": {
+        "description_human": "time of the restaurant booking",
+        "values": [],
+        "naive": "time for the restaurant booking",
+        "question": "What is the book time of the restaurant that the user mentioned?",
+        "slottype": "time for the restaurant booking",
+        "slottype_zh": "餐厅预订时间"
+    },
+    "restaurant-book day": {
+        "description_human": "day of the restaurant booking",
+        "values": [
+            "friday",
+            "monday",
+            "saturday",
+            "sunday",
+            "thursday",
+            "tuesday",
+            "wednesday"
+        ],
+        "naive": "day for the restaurant booking",
+        "question": "What is the book day of the restaurant that the user mentioned? The answer should be a day of the week or None.",
+        "slottype": "day for the restaurant booking",
+        "slottype_zh": "餐厅预订日"
+    },
+    "restaurant-book people": {
+        "description_human": "how many people for the restaurant reservation",
+        "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "naive": "people for the restaurant booking",
+        "question": "What is the book people of the restaurant that the user mentioned? The answer should be a number or None.",
+        "slottype": "number of people for the restaurant booking",
+        "slottype_zh": "餐厅预订人数"
+    },
+    "taxi-arriveby": {
+        "description_human": "arrival time of taxi",
+        "values": [],
+        "naive": "arrive by of the taxi",
+        "question": "What is the arriveby of the taxi that the user mentioned?",
+        "slottype": "time of arrive by of the taxi",
+        "slottype_zh": "出租车到达时间"
+    }
+}
+
+
+
